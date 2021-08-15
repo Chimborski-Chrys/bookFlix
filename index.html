@@ -1,136 +1,168 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/main.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/main.css">
 
-    <!--responsividade-->
-    <link rel="stylesheet" href="style/responsive.css">
+  <!--responsividade-->
+  <link rel="stylesheet" href="style/responsive.css">
 
-    <!--owl css-->
-    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
-    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+  <!--owl css-->
+  <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
 
-    <title>BookFlix</title>
+  <title>BookFlix</title>
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <h2 class="logo">BOOKFLIX</h2>
-            <nav>
-                <a href="#">Inicio</a>
-                <a href="#">Romance</a>
-                <a href="#">Ficção</a>
-                <a href="#">Juvenil</a>    
-            </nav>
+  <header>
+    <div class="container">
+      <h2 class="logo">BOOKFLIX</h2>
+      <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Romance</a>
+        <a href="#">Ficção</a>
+        <a href="#">Juvenil</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="livro-principal">
+      <div class="container">
+        <h3 class="titulo">A RODA DO TEMPO</h3>
+        <p class="descricao">Um dia houve uma guerra tão definitiva que rompeu o mundo, e no girar da Roda do Tempo o
+          que ficou na memória dos homens virou esteio das lendas.</p>
+        <div class="botoes">
+          <button role="button" class="botao">
+            <i class="fas fa-info"></i>
+            <a target="_blank" href="https://www.intrinseca.com.br/arodadotempo/oolhodomundo/index.html">Mais</a>
+          </button>
+          <button role="button" class="botao">
+            <i class="fas fa-shopping-cart"></i>
+            <a target="_blank"
+              href="https://www.apaginalivrarias.com.br/produto/o-olho-do-mundo-serie-a-roda-do-tempo-vol-1-71544">Comprar</a>
+          </button>
         </div>
-    </header>
+      </div>
+    </div>
+  </main>
+  <div>
+    <h2 class="indicados">Indicados no BookFlix</h2>
+  </div>
 
-    <main>
-        <div class="livro-principal">
-            <div class="container">
-                <h3 class="titulo">A RODA DO TEMPO</h3>
-                <p class="descricao">Um dia houve uma guerra tão definitiva que rompeu o mundo, e no girar da Roda do Tempo o que ficou na memória dos homens virou esteio das lendas.</p>
-                <div class="botoes">           
-                   <button role="button" class="botao">
-                        <i class="fas fa-info"></i>
-                        <a target="_blank" href="https://www.intrinseca.com.br/arodadotempo/oolhodomundo/index.html">Mais</a>
-                    </button>
-                    <button role="button" class="botao">
-                        <i class="fas fa-shopping-cart"></i>
-                        <a target="_blank" href="https://www.apaginalivrarias.com.br/produto/o-olho-do-mundo-serie-a-roda-do-tempo-vol-1-71544">Comprar</a>
-                    </button>
-                </div>
+  <!-- Carossel com popUp-->
+
+
+  <div id="slider-carousel" class="owl-carousel">
+      
+        <div class="item">
+          <a class="hoverfx1" target="_blank" href="https://www.apaginalivrarias.com.br/produto/fate-a-saga-winx-o-caminho-das-fadas-359017">
+            <img src="img/img1.jpg">
+            <div class="figure">
+              <i class="fas fa-shopping-cart"></i>
+            </div>            
+            <div class="overlay">
             </div>
-        </div>    
-    </main>
-    <div>
-        <h2 class="indicados">Indicados no BookFlix</h2>
-    </div>
-    <div class="carrosel-livros">
-            <div class="owl-carousel owl-theme">
-               
+          </a>
+        </div>   
 
-               <!--
-                <div class="item">
-                        <img class="box-livro" src="img/img1.jpg" alt="" srcset="">                         
-                </div>
-                -->
-
-                <div class="item" class="popUp" id="popUp">
-                    <a href="#fechar" title="Fechar" class="fechar">x</a>
-                    <a>
-                        <img class="box-livro" src="img/img1.jpg" alt="" srcset="" onclick="abrir()">
-                    </a>
-                                            
-                </div>
-
-
-                    <div class="item">
-                        <img class="box-livro" src="img/img3.jpg" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-livro" src="img/img4.png" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-livro" src="img/img6.jpg" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-livro" src="img/img11.jpg" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-livro" src="img/img14.jpg" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-livro" src="img/img15.jpg" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-livro" src="img/img8.jpg" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-livro" src="img/img9.jpg" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-livro" src="img/img10.png" alt="" srcset="">
-                    </div>
+   
+        <div class="item">
+          <a class="hoverfx2" target="_blank" href="https://www.apaginalivrarias.com.br/produto/coraline-acompanha-marcador-de-paginas-especial-295776">
+            <img src="img/img3.jpg">
+            <div class="figure">
+              <i class="fas fa-shopping-cart"></i>
+            </div>            
+            <div class="overlay">
             </div>
+          </a>
+        </div>
+
+
+        <div class="item">
+          <a class="hoverfx3" target="_blank" href="https://www.apaginalivrarias.com.br/produto/o-crepusculo-e-a-aurora-318005">
+            <img src="img/img4.png">
+            <div class="figure">
+              <i class="fas fa-shopping-cart"></i>
+            </div>            
+            <div class="overlay">
+            </div>
+          </a>
+        </div>
+
+
+        <div class="item">
+          <a class="hoverfx4" target="_blank" href="https://www.apaginalivrarias.com.br/produto/o-gambito-da-rainha-livro-que-esta-na-netflix-366601">
+            <img src="img/img8.jpg">
+            <div class="figure">
+              <i class="fas fa-shopping-cart"></i>
+            </div>            
+            <div class="overlay">
+            </div>
+          </a>
+        </div>
+
+
+        <div class="item">
+          <a class="hoverfx5" target="_blank" href="https://www.apaginalivrarias.com.br/produto/lendarios-serie-lendarios-volume-1-370547">
+            <img src="img/img11.jpg">
+            <div class="figure">
+              <i class="fas fa-shopping-cart"></i>
+            </div>            
+            <div class="overlay">
+            </div>
+          </a>
+        </div>
+
+
+        <div class="item">
+          <a class="hoverfx6" target="_blank" href="https://www.apaginalivrarias.com.br/produto/do-mil-ao-milhao-205193">
+            <img src="img/mais3.jpg">
+            <div class="figure">
+              <i class="fas fa-shopping-cart"></i>
+            </div>            
+            <div class="overlay">
+            </div>
+          </a>
+        </div>
+
     </div>
 
-    <!-- MAIS VENDIDOS -->
-    <div>
-        <h2 class="maisVendidos">Mais Vendidos</h2>
+  <!-- MAIS VENDIDOS -->
+  <div>
+    <h2 class="maisVendidos">Mais Vendidos</h2>
+  </div>
+  <div class="carrosel-mais-vendidos">
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <img class="box-mais-vendido" src="img/mais1.jpg" alt="" srcset="">
+      </div>
+      <div class="item">
+        <img class="box-mais-vendido" src="img/mais2.jpg" alt="" srcset="">
+      </div>
+      <div class="item">
+        <img class="box-mais-vendido" src="img/mais5.png" alt="" srcset="">
+      </div>
+      <div class="item">
+        <img class="box-mais-vendido" src="img/mais6.jpg" alt="" srcset="">
+      </div>
+      <div class="item">
+        <img class="box-mais-vendido" src="img/mais9.jpg" alt="" srcset="">
+      </div>
     </div>
-    <div class="carrosel-mais-vendidos">
-            <div class="owl-carousel owl-theme">
-                    <div class="item">
-                        <img class="box-mais-vendido" src="img/mais1.jpg" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-mais-vendido" src="img/mais2.jpg" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-mais-vendido" src="img/mais5.png" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-mais-vendido" src="img/mais6.jpg" alt="" srcset="">
-                    </div>
-                    <div class="item">
-                        <img class="box-mais-vendido" src="img/mais9.jpg" alt="" srcset="">
-                    </div>
-             </div>
-    </div>
+  </div>
 
-    <script src="https://kit.fontawesome.com/4384206b85.js" crossorigin="anonymous"></script>
-    <script src="js/owl/jquery.min.js"></script>
-    <script src="js/owl/owl.carousel.min.js"></script>
-    <script src="js/owl/setup.js"></script>
+
+
+  <script src="https://kit.fontawesome.com/4384206b85.js" crossorigin="anonymous"></script>
+  <script src="js/owl/jquery.min.js"></script>
+  <script src="js/owl/owl.carousel.min.js"></script>
+  <script src="js/owl/setup.js"></script>
+
 </body>
-</html>
 
-<script type="text/javascript">
-function abrir(){
-document.getElementById('popUp').style.display = 'block';
-}
-</script>
+</html>
